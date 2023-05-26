@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./angular-1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./external.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-color: rgb(160, 110, 18);
+        background-image: linear-gradient( to left, var(--primary), var(--secondary))
+        }
+        hr{
+          display: block;
+          height: 3px groove;
+        }
+        .card{
+         
+            margin-left: 10px;
+            padding-left: -2px;
+            background-color: rgb(189, 145, 0);
+            margin-bottom: 8px;
+            margin-top: 5px;
+            border-radius: 8px;
+        }
+        .card:hover{
+          background-color: rgb(39, 37, 37);
+          color: white;
+        }
+        h1{
+          text-align: center;
+          text-transform: uppercase;
+          color: black;
+          text-shadow: 5px 2px 4px 5px black;
+        }
+        h1:hover{
+          color: rgb(146, 40, 40);
+          
+        }
+        h3{
+          text-align: center;
+          text-transform: lowercase;
+          color:black;
+        }
+        h2{
+          color: black;
+          text-transform: uppercase;
+        }
+        .card-text{
+          text-emphasis: 2px;
+        }
+
+        @media only screen and (max-width:600px){
+          .card{
+            margin-left: 80px;
+          }
+        
+          
+        }
+    </style>
+</head>
+<body>
+  <div class="container-fluid m-0 p-0">
+  
+
+      <div class="row">
+        <div class="col-sm-12 m-0 p-0 img-fluid">
+          <img src="./img/nft2.jpg" style="width: 100%;" id="pros">
+    <marquee> <h1>here for <b> nfts ?</b> say no more <sub>Name it. We got it</sub></h1></marquee>
+        </div>
+      </div>
+
+      <!-- cards starts here -->
+      <div class="row">
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem; height:340px ;">
+          <img src="./img/boy.png" class="card-img-top" alt="..." style="height: 200px;">
+          <div class="card-body">
+            <p class="card-text">rare Anime nft</p>
+            <p style="margin-top: -15px; padding-top:-10px;">$3000</p>
+            <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem; height:340px ;">
+            <img src="./img/duck.png" class="card-img-top" alt="..." style="height: 200px;">
+            <div class="card-body">
+              <p class="card-text">drizzy duck nft</p>
+              <p style="margin-top: -15px; padding-top:-10px;">$300</p>
+              <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem; height:340px ;">
+              <img src="./img/images (10).jpeg" class="card-img-top" alt="..." style="height: 200px;">
+              <div class="card-body">
+                <p class="card-text">rare blind ape</p>
+                <p style="margin-top: -15px; padding-top:-10px;">$2500</p>
+                <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+              </div>
+            </div>
+            </div>
+
+              <div class="col-sm-3">
+                <div class="card" style="width: 18rem; height:340px ;">
+                  <img src="./img/images (11).jpeg" class="card-img-top" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <p class="card-text">bunch ape club</p>
+                    <p style="margin-top: -15px; padding-top:-10px;">$300,000</p>
+                    <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                  </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="card" style="width: 18rem; height:340px ;">
+                      <img src="./img/images (13).jpeg" class="card-img-top" alt="..." style="height: 200px;">
+                      <div class="card-body">
+                        <p class="card-text">ape gangster</p>
+                        <p style="margin-top: -15px; padding-top:-10px;">$4000</p>
+                        <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="card" style="width: 18rem; height:340px ;">
+                        <img src="./img/images (12).jpeg" class="card-img-top" alt="..." style="height: 200px;">
+                        <div class="card-body">
+                          <p class="card-text">bunch of apes</p>
+                          <p style="text-decoration:line-through;">$600,000</p>
+                          <p style="margin-top: -15px; padding-top:-10px;">$500,000</p>
+                          <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                        </div>
+                      </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                        <div class="card" style="width: 18rem; height:340px ;">
+                          <img src="./img/space.png" class="card-img-top" alt="..." style="height: 200px;">
+                          <div class="card-body">
+                            <p class="card-text">space traveller</p>
+                            <p style="margin-top: -15px; padding-top:-10px;">$5000</p>
+                            <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                          <div class="card" style="width: 18rem; height:340px ;">
+                            <img src="./img/monkey.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                            <div class="card-body">
+                              <p class="card-text">Ape king</p>
+                              <p style="margin-top: -15px; padding-top:-10px;">$1,000,000</p>
+                              <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm m-0 p-0 img-fluid">
+                            <img src="./img/defi.jpg" alt="" style="width: 100%; ">
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <div class="card" style="width: 18rem; height:340px ;">
+                              <img src="./img/usdc.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                              <div class="card-body">
+                                <p class="card-text">USDC</p>
+                                <p style="margin-top: -15px; padding-top:-10px;">$1</p>
+                                <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                              </div>
+                            </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                              <div class="card" style="width: 18rem; height:340px ;">
+                                <img src="./img/btc1.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                                <div class="card-body">
+                                  <p class="card-text">BTC</p>
+                                  <p style="margin-top: -15px; padding-top:-10px;">~$20,000</p>
+                                  <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                                </div>
+                              </div>
+                              </div>
+
+                              <div class="col-sm-3">
+                                <div class="card" style="width: 18rem; height:340px ;">
+                                  <img src="./img/eth.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                                  <div class="card-body">
+                                    <p class="card-text">ETH</p>
+                                    <p style="margin-top: -15px; padding-top:-10px;">$1,800</p>
+                                    <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                                  </div>
+                                </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                  <div class="card" style="width: 18rem; height:340px ;">
+                                    <img src="./img/sol.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                                    <div class="card-body">
+                                      <p class="card-text">SOLANA</p>
+                                      <p style="margin-top: -15px; padding-top:-10px;">$40</p>
+                                      <a href="#" class="btn btn-outline-primary" style="margin-top:-10px;">click to buy</a>
+                                    </div>
+                                  </div>
+                                  </div>
+                        </div>
+                       </div>
+            
+                  
+
+</body>
+</html>
+

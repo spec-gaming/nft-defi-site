@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace ;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: rgb(233, 192, 13);
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(21, 21, 29);
+}
+.navbar-brand {
+  color: white;
+}
+.carousel-inner {
+  height: 600px;
+}
+.gif {
+  height: 600px;
+  width: 100%;
+}
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+
